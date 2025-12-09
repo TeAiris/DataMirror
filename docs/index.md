@@ -74,5 +74,5 @@ Interactivity is central to the meaning of **Data Mirror**:
 
 
 <video src="./assets/videos/data_mirror_teaser_placeholder.mp4" controls width="100%"></video>  
-*Replace with: `./assets/videos/data_mirror_teaser.mp4`*  
+
 

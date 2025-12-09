@@ -53,7 +53,7 @@
 
 ## System Diagram / Data Flow
 
-![System Diagram Placeholder](./media/Hardware.png) 
+![System Diagram Placeholder](./media/.png) 
 
 
 ## Interaction Design  
