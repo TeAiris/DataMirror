@@ -1,0 +1,50 @@
+site_name: Data Mirror
+site_description: >
+  Documentation for my interactive media / installation assignment.
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - content.tabs.link
+    - navigation.top
+    - search.suggest
+    - header.autohide
+    - palette.toggle
+
+  palette:
+    - scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode    # optional: keeps sidebar expanded
+
+    # - navigation.tabs
+
+nav:
+  - Intro/Concept: index.md
+  - Tech Details: tech-details.md
+  - Unity: unity.md
+  - BPDistribution: bpdistribution.md
+  - Final Installation: final-installation.md
+
+plugins:
+  - search
+
+extra_css:
+  - css/extra.css
+
+extra_javascript:
+  - js/matrix-rain-bg.js
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
