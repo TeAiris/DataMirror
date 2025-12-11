@@ -31,9 +31,9 @@ theme:
 
 nav:
   - Intro/Concept: index.md
-  - Tech Details: tech-details.md
   - Unity: unity.md
   - BPDistribution: bpdistribution.md
+  - Tech Details: tech-details.md
   - Final Installation: final-installation.md
 
 plugins:

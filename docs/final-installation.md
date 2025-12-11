@@ -1,21 +1,36 @@
+<div class="dm-card" markdown>
+
 # Final Installation
 
-## Location
+## Location  
 **Underground Atlanta**
 
-*Placeholder for venue photo*  
-**[INSERT: Photo of Underground Atlanta installation area]**
+</div>
 
----
+<div class="dm-card" markdown>
+
+## Demo Video
+
+<iframe width="560" height="315"
+  src="https://www.youtube.com/embed/7ZfrA9mkhv0"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+</div>
+
+<div class="dm-card" markdown>
 
 ## Installation Setup
 
 ### Physical Layout
 - **Speaker Array:**  
-  - QSC K10.2 units arranged in a perimeter arc (floor + head level)  
-  - Two elevated QSC K10.2s at the front for height cues  
-  - Neumann KH120 used for clarity and spatial detail  
-  - Alto Professional TS18C Subwoofer centrally placed  
+  - QSC K10.2 units arranged in a perimeter arc (floor level)  
+  - Two elevated Neumann KH120 at the front for height cues  
+  - Neumann KH120 used for clarity and spatial detail  (head level)
+  - Alto Professional TS18C Subwoofer placed behind the curtain
 
 - **Control Station:**  
   - MacBook Pro 14" running Unity + OSC  
@@ -24,77 +39,61 @@
 
 - **Visual System:**  
   - Projector displaying Unity’s matrix world + reactive avatar  
-  - Depth-sensing camera mounted front-left or centered  
-  - Optional Roland V-1HD for blending camera + Unity output  
+  - Intel RealSense camera mounted  
+  - Roland V-1HD for blending camera + Unity output  
 
-*Placeholder for installation diagram*  
-**[INSERT: Floor plan with speaker positions + projector location]**
+![Placeholder](./media/setup_layout.png)
 
----
+</div>
 
-## Space Requirements
-- Medium-large room (20–30 ft), open industrial layout  
-- Dim lighting to enhance projection contrast  
-- Sufficient distance between audience and projection wall for safety  
-- Enough circulation room for multiple users to move freely  
-
----
+<div class="dm-card" markdown>
 
 ## User Journey
 
-### 1. Arrival
+### Arrival  
 Visitors walk into a dim room illuminated by the matrix projection and a pulsing humanoid figure.
 
-*Placeholder for arrival scene photo*  
-**[INSERT: Photo of projection wall on entry]**
+![Placeholder](./media/enter.png)
 
-### 2. Onboarding
-A facilitator briefly explains:
+### Onboarding  
+A facilitator briefly explains:  
 - How to use the trackball  
 - How movement affects the system  
 - What to expect sonically and visually  
 
-### 3. Interaction
+### Interaction  
 - Users spatialize stems using the Nulea M512 trackball  
-- Their movement affects tempo and visual reactivity  
+- Other user's movement affects tempo and energy
 - The installation cycles through stem sets across the evening  
 
-### 4. Ending / Reset
-After a period of inactivity, the system returns to a calm, default loop until the next participant engages.
+![Placeholder](./media/user_journey.png)
 
----
+</div>
 
-## Visual & Sonic Design
 
-### Visuals
-- Matrix-inspired shader grid  
-- HSV ramping effects tied to sound regions  
-- Stylized humanoid figure pulsing with data streams  
-
-### Sound
-- 8 musical sets × 4 stems  
-- IEM spatialization via Reaper  
-- Subtle tempo changes based on group movement  
-
-*Placeholder for audio-reactive screenshot*  
-**[INSERT: Unity screenshot showing reactive matrix shader]**
-
----
+<div class="dm-card" markdown>
 
 ## Accessibility & Inclusivity
+
 - Open floor plan with no required reach constraints  
 - Trackball mouse usable while seated or standing  
-- Visual indicators support those with reduced hearing  
-- Moderate levels ensure safe auditory exposure  
 
----
+![Placeholder](./media/accessibility.png)
 
-## Documentation Media
-- **[INSERT: Installation photos]**  
-- **[INSERT: Short demo video]**  
-- **[INSERT: Diagram of data flow or speaker layout]**
+</div>
 
----
+<div class="dm-card" markdown>
+
+## Media
+
+
+![Placeholder](./media/documentation_media.png)
+
+</div>
+
+
+
+<div class="dm-card" markdown>
 
 ## Reflection
 
@@ -104,22 +103,18 @@ After a period of inactivity, the system returns to a calm, default loop until t
 - Spatial system adapted well to the unique architecture of Underground Atlanta  
 
 ### Challenges
-- Variability in crowd detection required filtering  
-- Latency occasionally varied depending on machine load  
-- Some projection alignment challenges in an industrial space  
+- OSC Communication with Python (due to network)  
+- Ableton using Keyserver shuts down periodically (room router had no Internet access)
 
 ### Future Improvements
-- Expand gesture classification (MediaPipe, OpenCV)  
-- Smoother transitions between musical scenes  
-- Fully portable version using standalone Unity builds and integrated audio processing  
+- Expand sound set  
+- Include different forms of visualization  
+- More interactive elements for users  
 
-*Placeholder for post-event photo*  
-**[INSERT: Group photo or final setup shot]**
 
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/7ZfrA9mkhv0"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
+![Placeholder](./media/reflection_image.png)
+
+</div>
+
+
+

@@ -6,6 +6,14 @@
   
 > Data Mirror is an interactive spatial-audio installation that transforms collective presence into evolving sound and image, showing how shared spaces, and the people within them, continuously reshape one another.  
 
+<iframe width="560" height="315"
+  src="https://www.youtube.com/embed/7ZfrA9mkhv0"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
 </div>
 
 <div class="dm-card" markdown>
@@ -14,8 +22,10 @@
 
 **Data Mirror** is an immersive spatial-audio and visual installation that places participants inside a reactive matrix-like environment driven by movement, proximity, and sonic interaction. A multistem musical composition plays through a spatial audio array, while visuals projected across the front wall reveal the system’s internal “data world”, a 3D space containing matrix-inspired effects, a stylized humanoid avatar, and a virtual representation of the speaker array.  
 
-![Concept Visual Placeholder](./assets/images/concept_visual_placeholder.png)  
-*Placeholder for concept illustration or sketch.*
+![Concept Visual Placeholder](./media/concept.png)  
+
+Concentration = max(0.0, 1.0 − min(σx / 0.5, 1.0))
+
 
 Participants can manipulate sound using a **Nulea M512 Wireless Trackball Mouse**, which controls real-time spatialization within Unity. They can cycle through several stem combinations (drums, bass, harmony, melody) and control how those stems are spatially mirrored through different panning patterns. Stem loops come from eight pre-built musical sets created in Ableton, and these sets progress throughout the installation.  
   
@@ -62,17 +72,9 @@ Alongside these inspirations, our earlier work with spatial panning via OSC natu
 
 Interactivity is central to the meaning of **Data Mirror**:  
 - **Sound:** Stems move based on user input and spatial mapping, creating a strong sense of agency.  
-- **Visuals:** Matrix-style shaders, reactive color fields, and a humanoid data avatar reflect participant influence.  
+- **Visuals:** Matrix-style shaders, reactive colored orbs, and a humanoid data avatar reflect participant influence.  
 - **Shared presence:** Crowd movement shapes global musical parameters, demonstrating how individual and collective behaviors influence the system.  
-- **Embodiment:** Participants see and hear themselves reflected in fragmented, stylized forms that respond to their motion.  
+
 
 </div>
-
-
-
-
-
-
-<video src="./assets/videos/data_mirror_teaser_placeholder.mp4" controls width="100%"></video>  
-
 

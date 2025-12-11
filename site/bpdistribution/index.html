@@ -15,7 +15,7 @@
         <link rel="prev" href="../unity/">
       
       
-        <link rel="next" href="../final-installation/">
+        <link rel="next" href="../tech-details/">
       
       
         
@@ -77,6 +77,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#body-position-distribution-overview" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -261,33 +266,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../tech-details/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tech Details
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../unity/" class="md-nav__link">
         
   
@@ -321,6 +299,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BPDistribution
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -339,6 +337,157 @@
 
       </a>
       
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overall-purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overall Purpose
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies-and-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies and Setup
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main-tracking-and-osc-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Main Tracking and OSC Logic
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Main Tracking and OSC Logic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#initialization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Initialization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#frame-processing-computer-vision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frame Processing (Computer Vision)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tracking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tracking
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#osc-message-sending" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OSC Message Sending
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visualization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cleanup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cleanup
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tech-details/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tech Details
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -387,6 +536,121 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overall-purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overall Purpose
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies-and-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dependencies and Setup
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main-tracking-and-osc-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Main Tracking and OSC Logic
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Main Tracking and OSC Logic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#initialization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Initialization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#frame-processing-computer-vision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frame Processing (Computer Vision)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tracking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tracking
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#osc-message-sending" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OSC Message Sending
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visualization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cleanup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cleanup
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -403,98 +667,102 @@
 
 
 
-  <h1>BPDistribution</h1>
-
 <div class="dm-card">
-
-The Python script implements a real-time computer vision system to track people in a video feed
-and analyze their horizontal distribution. It then sends this distribution data as Open Sound
-Control (OSC) messages to Max for Live for sound control.
-
-1. Overall Purpose  
-The script takes video input from a specified camera, uses background subtraction to isolate
-moving objects (assumed to be people), tracks these objects over time, and calculates the
-following metrics for the detected crowd:  
-1. Count: The number of stable, currently tracked people.  
-2. Average X: The horizontal center-of-mass of the crowd, normalized from 0.0 (far left) to
-1.0 (far right).  
-3. Concentration: A measure of how tightly clustered the people are horizontally, ranging
-from 0.0 (maximally spread) to 1.0 (maximally clustered).
-
-2. Dependencies and Setup  
-- cv2 (OpenCV): video capture and computer vision processing.  
-- pythonosc.udp_client: send OSC messages over the network.  
-- numpy: numerical operations.
-
-3. Main Tracking and OSC Logic  
-
-Initialization  
-1. OSC Client: udp_Client.SimpleUDPClient is initialized to send messages to the specified
-IP and port  
-2. Video Capture: cv2.VideoCapture  
-3. Background Subtraction: cv2.createBackgroundSubtractorMOG2 learns the stationary
-background and outputs a mask showing only moving foreground objects.  
-4. Tracking State: tracks is used to store the state of currently tracked people (position, size,
-last time seen, number of hits).
-
-Frame Processing (Computer Vision)  
-1. Noise Reduction: A Gaussian blur is applied to the frame before background
-subtraction.  
-2. Morphological Operations: The foreground mask is cleaned using Opening (removes
-small noise) and Closing (fills small holes).  
-3. Dilation: The mask is slightly dilated to merge adjacent, broken-up blobs into single
-detections.  
-4. Thresholding: A final binary threshold is applied to ensure the mask consists only of black
-and white pixels  
-5. Contour Finding: cv2.findContours finds distinct shapes in the mask. Those smaller than
-args.min_area are discarded.
-
-Tracking  
-The script implements a simple tracking algorithm based on the horizontal center of each
-detection.  
-1. Matching: Each new detection is compared to existing active tracks. It finds the nearest
-track based on the x-coordinate distance. A match is confirmed if the distance is less than
-1/6 of the frame width (w / match_dist_fraction).  
-2. Updating: If a match is found, the track’s position is updated, and its last_seen time and
-hits count are incremented.  
-3. New Tracks: If a detection cannot be matched to a nearby existing track, a new track ID is
-assigned.  
-4. Aging Out: Tracks that have not been seen (detected) for longer than args.hold seconds
-are removed from the system.
-
-OSC Message Sending  
-OSC messages are sent at the rate defined by args.fps.  
-1. Active Tracks Filtering: Only tracks that have been seen recently (last_seen within
-args.hold) AND have been stable (hits >= args.persist) are considered active tracks for
-distribution analysis.  
-2. Calculations:  
-- Normalized X: The horizontal center (cx) of each active track is normalized to the frame
-width (w) to get a value between 0.0 and 1.0.  
-- Average X (μx): Calculated as the mean of all normalized X-positions.  
-- Concentration: Calculated from the standard deviation (σx) of the normalized X-positions:  
-
-Concentration = max(0.0, 1.0 − min(σx / 0.5, 1.0))
-
-- A low σx (people clustered) results in a high concentration score (close to 1.0).  
-- A high σx (people spread out) results in a low concentration score (close to 0.0).  
-
-3. Sending Messages: The following three OSC messages are sent:  
-- /people/count: The number of active people  
-- /people/avgx: The average normalized X-position (center of crowd).  
-- /people/concentration: The calculated concentration value.
-
-Visualization  
-If the —show argument is used, a debug window is displayed showing:  
-- Green rectangles around the current frame’s detections.  
-- Circles marking the center of each track.  
-- Blue circles indicate stable tracks (hits >= persist).  
-- Red circles indicate new/unstable tracks.  
-- The opacity of the track circle fades as its last_seen time approaches the args.hold limit.
-
-Cleanup  
-When the script exits (by pressing ‘q' in the display window), the camera is released, and all
-OpenCV windows are closed.
-
+<h1 id="body-position-distribution-overview">Body Position Distribution Overview</h1>
+<p>The Python script implements a real-time computer vision system to track people in a video feed and analyze their horizontal distribution. It then sends this distribution data as Open Sound Control (OSC) messages to Max for Live for sound control.</p>
+<p><img alt="Placeholder" src="./media/placeholder.png" /></p>
+</div>
+<div class="dm-card">
+<h2 id="overall-purpose">Overall Purpose</h2>
+<p>The script takes video input from a specified camera, uses background subtraction to isolate moving objects (assumed to be people), tracks these objects over time, and calculates the following metrics for the detected crowd:</p>
+<ol>
+<li>Count: The number of stable, currently tracked people.  </li>
+<li>Average X: The horizontal center-of-mass of the crowd, normalized from 0.0 (far left) to 1.0 (far right).  </li>
+<li>Concentration: A measure of how tightly clustered the people are horizontally, ranging from 0.0 (maximally spread) to 1.0 (maximally clustered).</li>
+</ol>
+</div>
+<div class="dm-card">
+<h2 id="dependencies-and-setup">Dependencies and Setup</h2>
+<ul>
+<li>cv2 (OpenCV): video capture and computer vision processing.  </li>
+<li>pythonosc.udp_client: send OSC messages over the network.  </li>
+<li>numpy: numerical operations.</li>
+</ul>
+</div>
+<div class="dm-card">
+<h2 id="main-tracking-and-osc-logic">Main Tracking and OSC Logic</h2>
+<h3 id="initialization">Initialization</h3>
+<ol>
+<li>OSC Client: udp_Client.SimpleUDPClient is initialized to send messages to the specified IP and port.  </li>
+<li>Video Capture: cv2.VideoCapture  </li>
+<li>Background Subtraction: cv2.createBackgroundSubtractorMOG2 learns the stationary background and outputs a mask showing only moving foreground objects.  </li>
+<li>Tracking State: tracks is used to store the state of currently tracked people (position, size, last time seen, number of hits).</li>
+</ol>
+</div>
+<div class="dm-card">
+<h3 id="frame-processing-computer-vision">Frame Processing (Computer Vision)</h3>
+<ol>
+<li>Noise Reduction: A Gaussian blur is applied to the frame before background subtraction.  </li>
+<li>Morphological Operations: The foreground mask is cleaned using Opening (removes small noise) and Closing (fills small holes).  </li>
+<li>Dilation: The mask is slightly dilated to merge adjacent, broken-up blobs into single detections.  </li>
+<li>Thresholding: A final binary threshold is applied to ensure the mask consists only of black and white pixels.  </li>
+<li>Contour Finding: cv2.findContours finds distinct shapes in the mask. Those smaller than args.min_area are discarded.</li>
+</ol>
+</div>
+<div class="dm-card">
+<h3 id="tracking">Tracking</h3>
+<p>The script implements a simple tracking algorithm based on the horizontal center of each detection.</p>
+<ol>
+<li>Matching: Each new detection is compared to existing active tracks. It finds the nearest track based on the x-coordinate distance. A match is confirmed if the distance is less than 1/6 of the frame width (w / match_dist_fraction).  </li>
+<li>Updating: If a match is found, the track’s position is updated, and its last_seen time and hits count are incremented.  </li>
+<li>New Tracks: If a detection cannot be matched to a nearby existing track, a new track ID is assigned.  </li>
+<li>Aging Out: Tracks that have not been seen (detected) for longer than args.hold seconds are removed from the system.</li>
+</ol>
+</div>
+<div class="dm-card">
+<h3 id="osc-message-sending">OSC Message Sending</h3>
+<p>OSC messages are sent at the rate defined by args.fps.</p>
+<ol>
+<li>
+<p>Active Tracks Filtering: Only tracks that have been seen recently (last_seen within args.hold) AND have been stable (hits &gt;= args.persist) are considered active tracks for distribution analysis.</p>
+</li>
+<li>
+<p>Calculations:  </p>
+</li>
+<li>Normalized X: The horizontal center (cx) of each active track is normalized to the frame width (w) to get a value between 0.0 and 1.0.  </li>
+<li>Average X (μx): Calculated as the mean of all normalized X-positions.  </li>
+<li>Concentration: Calculated from the standard deviation (σx) of the normalized X-positions:  </li>
+</ol>
+<p><img alt="Formula Placholder" src="../media/formula.png" /></p>
+<ul>
+<li>A low σx (people clustered) results in a high concentration score (close to 1.0).  </li>
+<li>
+<p>A high σx (people spread out) results in a low concentration score (close to 0.0).</p>
+</li>
+<li>
+<p>Sending Messages: The following three OSC messages are sent:</p>
+</li>
+<li>
+<p><code>/people/count</code>: The number of active people  </p>
+</li>
+<li><code>/people/avgx</code>: The average normalized X-position (center of crowd)  </li>
+<li><code>/people/concentration</code>: The calculated concentration value</li>
+</ul>
+</div>
+<div class="dm-card">
+<h3 id="visualization">Visualization</h3>
+<p>If the —show argument is used, a debug window is displayed showing:</p>
+<ul>
+<li>Green rectangles around the current frame’s detections.  </li>
+<li>Circles marking the center of each track.  </li>
+<li>Blue circles indicate stable tracks (hits &gt;= persist).  </li>
+<li>Red circles indicate new/unstable tracks.  </li>
+<li>The opacity of the track circle fades as its last_seen time approaches the args.hold limit.</li>
+</ul>
+</div>
+<div class="dm-card">
+<h3 id="cleanup">Cleanup</h3>
+<p>When the script exits (by pressing ‘q' in the display window), the camera is released, and all OpenCV windows are closed.</p>
 </div>
 
 
